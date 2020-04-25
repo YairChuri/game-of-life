@@ -41,7 +41,7 @@
                 <version>2.22.1</version>
                 <configuration>
                     <skip>true</skip>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <!-- <testFailureIgnore>true</testFailureIgnore> -->
 <!--                     <skipTests>true</skipTests>
                      <forkMode>once</forkMode>
  -->                </configuration>
@@ -82,7 +82,8 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.7.2.201409121644</version>
+                <!-- <version>0.7.2.201409121644</version> -->
+                <version>0.8.4</version>
                 <executions>
                     <execution>
                         <id>jacoco-initialize</id>
